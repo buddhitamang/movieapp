@@ -54,13 +54,6 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.only(bottom: 12),
-        child: BottomNavigationBar(
-          items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
-          ],
-        ),
       ),
       // backgroundColor: Colors.black54,
       body: SafeArea(
